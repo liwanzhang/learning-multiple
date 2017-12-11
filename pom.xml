@@ -33,7 +33,12 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--learning-multiple-->
+            <!--multiple-->
+            <dependency>
+                <groupId>zwl.learning.multiple</groupId>
+                <artifactId>multiple-dao</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>zwl.learning.multiple</groupId>
                 <artifactId>multiple-domain</artifactId>
