@@ -18,6 +18,13 @@
     </properties>
 
     <dependencies>
+        <!---->
+        <!--multiple-->
+        <dependency>
+            <groupId>zwl.learning.multiple</groupId>
+            <artifactId>multiple-dao</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
